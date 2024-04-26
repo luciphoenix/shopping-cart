@@ -4,6 +4,30 @@
 header {
   background-color: #232f3e;
   color: white;
-  font-size: 2.5rem;
+
+  /* letter-spacing: 0.5px; */
+}
+.logo {
+  font-size: 2rem;
   font-weight: bolder;
+}
+#basic-addon2 {
+  width: 3rem;
+  border: 0px solid transparent;
+}
+
+.user-location p {
+  font-size: 0.9rem;
+}
+.user-location span {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+i {
+  font-size: 1.5rem;
+}
+
+.language > img {
+  width: 1.5rem;
+  vertical-align: baseline;
 }

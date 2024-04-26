@@ -1,5 +1,5 @@
 function Main() {
-  return <main className="">Main</main>;
+  return <main className="px-3">Main</main>;
 }
 
 export default Main;
