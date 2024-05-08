@@ -1,12 +1,32 @@
 :root {
-  font-size: 16px;
+  font-size: 12px;
 }
-header {
-  background-color: #232f3e;
+a {
+  text-decoration: none;
+}
+
+.first-row {
+  background-color: #06101d;
   color: white;
 
   /* letter-spacing: 0.5px; */
 }
+.second-row {
+  background-color: #182a41;
+  color: white;
+  font-size: 1.2rem;
+}
+.third-row {
+  font-size: 1.3rem;
+  background-color: #dcdddd59;
+}
+header .col {
+  border: 1px solid transparent;
+}
+header .col:hover {
+  border: 1px solid white;
+}
+
 .logo {
   font-size: 2rem;
   font-weight: bolder;
@@ -19,7 +39,7 @@ header {
 .user-location p {
   font-size: 0.9rem;
 }
-.user-location span {
+header span {
   font-size: 1rem;
   font-weight: bolder;
 }
@@ -30,4 +50,25 @@ i {
 .language > img {
   width: 1.5rem;
   vertical-align: baseline;
+}
+
+.user-location > p {
+  margin: 0;
+}
+
+.third-row > :first-child {
+  /* display: block; */
+  /* padding-right: 1.3rem; */
+  border-right: 1px solid black;
+  background-color: #e9ebec;
+}
+.third-row > * {
+  padding: 1.1rem;
+  color: rgb(10, 10, 10);
+}
+.third-row a:hover {
+  color: rgb(240, 188, 45);
+}
+.third-row i {
+  font-size: 0.6rem;
 }
