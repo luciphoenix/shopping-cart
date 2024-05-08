@@ -72,3 +72,29 @@ i {
 .third-row i {
   font-size: 0.6rem;
 }
+
+/* content */
+.content {
+  display: flex;
+  font-size: 16px;
+}
+aside {
+  min-width: 15em;
+  border-right: 2px solid #c9c5c5cb;
+}
+main {
+  flex-grow: 1;
+  padding: 0 7em 0 7em;
+}
+
+.banner {
+  height: 15em;
+  border-radius: 5px;
+  background-color: #21556d79;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 0;
+}
