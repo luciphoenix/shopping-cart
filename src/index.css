@@ -80,7 +80,6 @@ i {
 }
 aside {
   min-width: 15em;
-  border-right: 2px solid #c9c5c5cb;
 }
 main {
   flex-grow: 1;
@@ -101,4 +100,19 @@ main {
 
 .card-img-top {
   height: 15rem;
+}
+
+/* aside */
+.aside-container {
+  border-right: 2px solid #c9c5c5cb;
+}
+
+.filter-list a {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color: rgb(17, 16, 16);
+}
+
+.filter-list a:hover {
+  color: rgb(240, 188, 45);
 }
