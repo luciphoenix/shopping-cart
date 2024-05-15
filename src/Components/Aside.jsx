@@ -6,53 +6,63 @@ function Aside() {
         <div className="filter-list">
           <div>
             <a href="#">
-              <i className="bi bi-shop"></i>Supermarket
+              <i className="bi bi-shop"></i> Supermarket
             </a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-phone"></i>Phones &amp; Tablets
+              <i className="bi bi-phone"></i> Phones &amp; Tablets
             </a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-hospital"></i>Health &amp; Beauty
+              <i className="bi bi-hospital"></i> Health &amp; Beauty
             </a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-house"></i>Home &amp; Office
+              <i className="bi bi-house"></i> Home &amp; Office
             </a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-device-ssd"></i>Appliances
+              <i className="bi bi-device-ssd"></i> Appliances
             </a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-ev-front"></i>Electronics
+              <i className="bi bi-ev-front"></i> Electronics
             </a>
-          </div>
-          <div>
-            <a href="#">Computing</a>
-          </div>
-          <div>
-            <a href="#">Fashion</a>
-          </div>
-          <div>
-            <a href="#">Sporting Goods</a>
-          </div>
-          <div>
-            <a href="#">Baby Products</a>
           </div>
           <div>
             <a href="#">
-              <i className="bi bi-controller"></i>Gaming
+              <i className="bi bi-pc-display-horizontal"></i> Computing
             </a>
           </div>
           <div>
-            <a href="#">Other categories</a>
+            <a href="#">
+              <i className="bi bi-person-standing-dress"></i> Fashion
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <i className="bi bi-capsule"></i> Sporting Goods
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <i className="bi bi-backpack2"></i> Baby Products
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <i className="bi bi-controller"></i> Gaming
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <i className="bi bi-bookmark-plus"></i> Other categories
+            </a>
           </div>
         </div>
       </div>
