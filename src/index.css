@@ -116,3 +116,19 @@ main {
 .filter-list a:hover {
   color: rgb(240, 188, 45);
 }
+
+/* footer */
+footer {
+  background-color: #182a41;
+  color: #e9ebec;
+}
+
+footer a {
+  color: #e9ebec;
+}
+.back-to-top {
+  background-color: #2c425fe1;
+}
+.back-to-top:hover {
+  background-color: #48586de1;
+}

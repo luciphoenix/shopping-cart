@@ -123,7 +123,9 @@ function Header() {
           </a>
         </div>
         <div className="third-row d-flex">
-          <a href="#">Amazon Devices</a>
+          <a href="#" id="amazon">
+            Amazon Devices
+          </a>
           <a href="#">Device Deals</a>
           <a href="#">
             Echo &amp; Alexa <i className="bi bi-caret-down-fill"></i>
