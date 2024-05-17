@@ -43,7 +43,7 @@ header span {
   font-size: 1rem;
   font-weight: bolder;
 }
-i {
+header i {
   font-size: 1.5rem;
 }
 
@@ -131,4 +131,48 @@ footer a {
 }
 .back-to-top:hover {
   background-color: #48586de1;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: larger;
+  color: rgb(255, 255, 255);
+}
+
+.footer-links {
+  font-size: 1.2rem;
+}
+.footer-links div a {
+  line-height: 2.5rem;
+}
+.footer-links div a:hover {
+  text-decoration: underline;
+}
+a.link-btn {
+  border: 1px solid rgb(182, 176, 176);
+  border-radius: 5px;
+  width: 10rem;
+  padding: 0.4rem 0.2rem;
+  color: rgba(255, 255, 255, 0.966);
+}
+a.link-btn i {
+  font-size: 1.2rem;
+}
+.footer-button > :first-child {
+  margin-right: 3rem;
+}
+.footer-button > * {
+  margin-right: 0.4rem;
+}
+footer .bi-caret-down-fill {
+  font-size: 13em;
+  margin-left: 3rem;
+}
+footer img {
+  width: 1.5rem;
+  vertical-align: baseline;
+}
+
+.footer-items {
+  background-color: #06080eb0;
 }

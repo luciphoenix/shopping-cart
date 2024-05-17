@@ -12,7 +12,6 @@ function App() {
         <Aside />
         <Main />
       </div>
-
       <Footer />
     </>
   );
