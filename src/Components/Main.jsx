@@ -2,7 +2,9 @@ function Main() {
   return (
     <main className="">
       <div className="row gap-4">
-        <div className="col-12 banner"></div>
+        <div className="col-12 banner">
+          <img src="/images/banner.png" alt="" />
+        </div>
         <div className="items">
           <div className="card ">
             <img src="/images/GTP.jpg" className="card-img-top" alt="..." />
